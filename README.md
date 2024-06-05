@@ -12,7 +12,7 @@
   3. Seaborn *(for data visualization)*
   4. Scikit-Learn *(for data modeling)*
      
-[Dataset: heart.csv]
+[Dataset: (https://github.com/Tanmayee2010/Heart-Attack-Prediction/blob/main/heart.csv)]
 
 #### Columns Information
  - age
