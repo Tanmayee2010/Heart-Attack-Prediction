@@ -26,11 +26,11 @@ def loginuser():
     else:
         mycursor = None  # Initialize mycursor here
         try:
-            mydb = mysql.connector.connect(host='localhost', user='tanu', password="tanu1620", database="patientregistration")
+            mydb = mysql.connector.connect(host='localhost', user='username', password="user password", database="database_name")
             mycursor = mydb.cursor()
             print("Connected to database!!")
 
-            command = "use patientregistration"
+            command = "use database_name"
             mycursor.execute(command)
 
             command = "select * from login where Username=%s and Password=%s"
