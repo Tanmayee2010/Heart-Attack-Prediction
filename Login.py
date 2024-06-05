@@ -57,14 +57,14 @@ root.config(bg=background)
 root.resizable(False, False)
 
 # Icon image
-image_icon = PhotoImage(file="C:\\Users\\tanmayee patil\\Desktop\\HeartAttackFinal\\Images\\icon (1).png")
+image_icon = PhotoImage(file="import your icon (1).png path")
 root.iconphoto(False, image_icon)
 
 # Background image
 frame = Frame(root, bg="red")  # Fix typo here, should be frame, not Frame
 frame.pack(fill=Y)
 
-backgroundimage = PhotoImage(file="C:\\Users\\tanmayee patil\\Desktop\\HeartAttackFinal\\Images\\LOGIN.png")
+backgroundimage = PhotoImage(file=" import your LOGIN.png path")
 Label(frame, image=backgroundimage).pack()  # Fix typo here, should be frame, not Frame
 
 ####user entry
@@ -109,8 +109,8 @@ def hide():
         eyebutton.config(image=openeye,activebackground="white")
         code.config(show="")
         button_mode=True
-openeye=PhotoImage(file="C:\\Users\\tanmayee patil\\Desktop\\HeartAttackFinal\\Images\\openeye.png")
-closeeye=PhotoImage(file="C:\\Users\\tanmayee patil\\Desktop\\HeartAttackFinal\\Images\\close eye.png")
+openeye=PhotoImage(file="import your openeye.png path")
+closeeye=PhotoImage(file="import your eye.png path")
 eyebutton=Button(frame,image=openeye,bg="#375174",bd=0,command=hide)
 eyebutton.place(x=780,y=410)
 
