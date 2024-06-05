@@ -6,9 +6,9 @@ def create_connection():
     try:
         connection = mysql.connector.connect(
             host='localhost',
-            database='patientregistration',
-            user='root',
-            password='tanu1620'
+            database='database_name',
+            user='username',
+            password='user password'
         )
         if connection.is_connected():
             db_info = connection.get_server_info()
