@@ -1,9 +1,9 @@
 # Heart-Attack-Prediction
-
+It is a Graphical User Interface System which is based on tkinter library
 
 **What is Logistic Regression ?**
 
-*Logistic Regression is a statistical and machine-learning techniques classifying records of a dataset based on the values of the input fields . It predicts a dependent variable based on one or more set of independent variables to predict outcomes . It can be used both for binary classification and multi-class classification.*
+Logistic Regression is a statistical and machine-learning techniques classifying records of a dataset based on the values of the input fields . It predicts a dependent variable based on one or more set of independent variables to predict outcomes . It can be used both for binary classification and multi-class classification.
 
 **##Objective**
 The primary objective of this study was to classify heart disease using logistic regression model and a real-world dataset. 
@@ -11,7 +11,7 @@ The logistic regression algorithm was applied to a dataset of patients with hear
 
 
 
-## Data collection 
+## Dataset 
 
 [Dataset: (https://github.com/Tanmayee2010/Heart-Attack-Prediction/blob/main/heart.csv)]
 
@@ -35,5 +35,6 @@ The logistic regression algorithm was applied to a dataset of patients with hear
 ## Libraries Used - 
   1. Pandas *(for data manipulation)*
   2. Matplotlib *(for data visualization)*
-  3. Seaborn *(for data visualization)*
+  3. Numpy *(for numerical calculation)*
   4. Scikit-Learn *(for data modeling)*
+  5. tkinter *(for GUI)*
