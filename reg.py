@@ -24,12 +24,12 @@ def register():
             try:
                 mydb = mysql.connector.connect(
                     host='localhost',
-                    user='tanu',
-                    password="tanu1620"
+                    user='username',
+                    password="user password"
                 )
                 mycursor = mydb.cursor()
-                mycursor.execute("CREATE DATABASE IF NOT EXISTS patientregistration")
-                mycursor.execute("USE patientregistration")
+                mycursor.execute("CREATE DATABASE IF NOT EXISTS database_name")
+                mycursor.execute("USE database_name")
                 mycursor.execute("""
                     CREATE TABLE IF NOT EXISTS login (
                         user INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
