@@ -52,14 +52,14 @@ def login():
     pass
 
 # Icon image
-image_icon = PhotoImage(file="C:\\Users\\tanmayee patil\\Desktop\\HeartAttackFinal\\Images\\icon.png")
+image_icon = PhotoImage(file="import your icon.png path")
 root.iconphoto(False, image_icon)
 
 # Background image
 frame = Frame(root, bg="red")
 frame.pack(fill=Y)
 
-backgroundimage = PhotoImage(file="C:\\Users\\tanmayee patil\\Desktop\\HeartAttackFinal\\Images\\register.png")
+backgroundimage = PhotoImage(file="import your register.png path")
 Label(frame, image=backgroundimage).pack()
 
 adminaccess = Entry(frame, width=15, fg="#000", border=0, bg="#e8ecf7", font=("Arial Bold", 20))
@@ -108,8 +108,8 @@ def hide():
         code.config(show="")
         button_mode = True
 
-openeye = PhotoImage(file="C:\\Users\\tanmayee patil\\Desktop\\HeartAttackFinal\\Images\\openeye.png")
-closeeye = PhotoImage(file="C:\\Users\\tanmayee patil\\Desktop\\HeartAttackFinal\\Images\\close eye.png")
+openeye = PhotoImage(file="import your openeye.png path")
+closeeye = PhotoImage(file="import your close eye.png path")
 eyebutton = Button(frame, image=openeye, bg="#375174", bd=0, command=hide)
 eyebutton.place(x=780, y=470)
 
